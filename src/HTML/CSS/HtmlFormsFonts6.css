@@ -1,0 +1,171 @@
+/*body*/
+body{
+    color: white;
+    background: goldenrod;
+    display: grid;
+    grid:
+    "titel titel" 30px
+    "formcheck checkbox" 300px
+    "buttons buttons" 200px /
+    1fr 1fr;
+    grid-gap: 10px;
+}
+
+/*grid*/
+#titel {
+    grid-area: titel;
+}
+
+#formcheck {
+    grid-area: formcheck;
+}
+
+#checkbox {
+    grid-area: checkbox;
+}
+
+#buttons{
+    grid-area: buttons;
+}
+
+.item {
+    background-color: black;
+}
+
+/*header titel size*/
+h3 {
+    margin: 3px;
+}
+
+/*button position change to the right*/
+button {
+    position: absolute;
+    right: 100px;
+}
+
+
+#knop2 {
+    position: absolute;
+    right: 8px;
+}
+
+/*edit list form*/
+li{
+    list-style-type: none;
+    position: relative;
+}
+
+/*position name order change form*/
+#voornaam{
+    position: absolute;
+    left: -30px;
+}
+#tussenvoegsel{
+    position: absolute;
+    left: -30px;
+}
+#achternaam{
+    position: absolute;
+    left: -30px;
+}
+#geslacht{
+    position: absolute;
+    left: 20px;
+}
+#kleurogen{
+    position: absolute;
+    left: 10px;
+}
+#datum{
+    position: absolute;
+    left: -30px;
+}
+#omschrijving{
+    position: absolute;
+    left: -30px;
+}
+
+/*position selection order change form*/
+#voornaam2 {
+    position: relative;
+    left: 90px;
+}
+
+#tussenvoegsel2 {
+    position: relative;
+    left: 90px;
+}
+#achternaam2 {
+    position: relative;
+    left: 90px;
+}
+#man {
+    position: relative;
+    left: 85px;
+}
+#vrouw {
+    position: relative;
+    left: 90px;
+}
+#oogkleuren {
+    position: relative;
+    left: 130px;
+}
+#datum2 {
+    position: relative;
+    left: 90px;
+}
+#omschrijving2 {
+    position: relative;
+    left: 90px;
+}
+
+/*checkbox*/
+#lekkereten{
+    position: relative;
+    left: 10px;
+}
+
+#sperciebonnen{
+    position: relative;
+    left: 50px;
+}
+
+#sperciebonnen2 {
+    position: relative;
+    left: 40px;
+}
+
+#aardappelen{
+    position: relative;
+    left: 129px;
+}
+
+#aardappelen2{
+    position: relative;
+    left: 118px;
+}
+
+#hamburger{
+    position: relative;
+    left: 129px;
+}
+
+#hamburger2{
+    position: relative;
+    left: 118px;
+}
+
+#C1 {
+    color: white;
+    position: relative;
+    left: 90px;
+}
+
+#C2 {
+    color: white;
+    position: relative;
+    left: 95px;
+}
+
+

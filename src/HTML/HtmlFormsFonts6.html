@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Html Form & Fonts 6</title>
+    <link rel="stylesheet" href="CSS/HtmlFormsFonts6.css">
+</head>
+<body>
+<!--titel in 1ste grid-->
+    <div class="item" id="titel">
+        <h3>Voorbeeld formulier</h3>
+    </div>
+
+<!--start form in 2de grid-->
+<div class="item" id="formcheck">
+    <form action="http://www.voormbo.nl/courses/html5/formtest.php" method="post">
+        <ul>
+            <li>
+                <label for="voornaam" id="voornaam">Voornaam</label>
+                <input type="text" name="voornaam" id="voornaam2">
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <label for="tussenvoegsel" id="tussenvoegsel">Tussenvoegsel</label>
+                <input type="text" name="tussenvoegsel" id="tussenvoegsel2">
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <label for="achternaam" id="achternaam">Achternaam</label>
+                <input type="text" name="achternaam" id="achternaam2">
+            </li>
+        </ul>
+        <!--button geslacht-->
+        <ul>
+                <label for="geslacht" id="geslacht">Geslacht</label>
+                <input type="radio" name="gender" value="man" id="man"><label id="C1">man</label>
+                <input type="radio" name="gender" value="vrouw" id="vrouw"><label id="C2">vrouw</label>
+                <br>
+            </li>
+        </ul>
+        <!--select kleur ogen-->
+        </ul>
+            <li>
+                <label for="kleur ogen" id="kleurogen">Kleur ogen</label>
+                <select name="oogkleuren" id="oogkleuren">
+                    <option value="groen">groen</option>
+                    <option value="groen">zwart</option>
+                    <option value="groen">bruin</option>
+                    <option value="groen">blauw</option>
+                </select>
+            </li>
+        </ul>
+        <!--datum button select-->
+        <ul>
+            <li>
+                <label for="datum" id="datum">datum</label>
+                <input type="date" name="geboortedatum" id="datum2"/>
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <label for="omschrijving" id="omschrijving">omschrijving</label>
+                <textarea name="omschrijving" name="omschrijving" id="omschrijving2"></textarea>
+            </li>
+        </ul>
+    </form>
+</div>
+
+<!--start checkbox in 3de grid-->
+<div class="item" id="checkbox">
+    <!--spercibonen checkbox-->
+    <label for="lekker-eten" id="lekkereten">lekker eten:</label>
+    <input type="checkbox" name="lekker-eten" value="sperciebonen" id="sperciebonnen2">
+    <span class="checkbox" id="sperciebonnen">sperciebonen</span><br>
+        <!--aardappelen checkbox-->
+    <input type="checkbox" name="lekker-eten" value="aardappelen" id="aardappelen2">
+    <span class="checkbox" id="aardappelen">aardappelen</span><br>
+        <!--hamburger checkbox-->
+    <input type="checkbox" name="lekker-eten" value="hamburger" id="hamburger2">
+    <span class="checkbox" id="hamburger">hamburger</span><br>
+</div>
+
+<!--start checkbox in 4de grid-->
+<div class="item" id="buttons">
+       <button type="button">Annuleer</button>
+        <input type="submit" name="knop" id="knop2"/>
+   </li>
+</div>
+</body>
+</html>
+
+
+
+
+
+

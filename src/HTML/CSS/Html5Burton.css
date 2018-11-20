@@ -1,0 +1,97 @@
+/*Body edit*/
+body{
+    /*grid*/
+    color: #010000;
+    background: bisque;
+    display: grid;
+    grid:
+            "Logo Logo " 64px
+            "Navbar Navbar " 60px
+            "section1 section2" 1fr
+            "section3 section3 " 1fr
+            "footer footer"/
+            1fr 1fr;
+            grid-gap: 20px;
+}
+
+
+#Logo{
+    grid-area: Logo;
+}
+
+#Navbar{
+    grid-area: Navbar;
+}
+
+#section3{
+    grid-area: section3;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    margin-bottom: -200px;
+}
+
+#footer{
+    grid-area: footer;
+}
+
+.gridback {
+    background-color: bisque;
+}
+
+/*Navbar*/
+ul{
+    list-style-type: none;
+    margin-top: -20px;
+}
+
+li{
+    display: inline;
+    margin: 5px;
+}
+
+/*pictures*/
+#pic1{
+    height: auto;
+}
+
+#pic2 {
+    height: 415px;
+    width: 740px;
+    margin-bottom: -50px;
+}
+
+#pic3 {
+    width: 780px;
+    height: 135px;
+}
+
+#pic4 {
+    width: 750px;
+    height: 135px;
+}
+
+#pic5 {
+    width: 750px;
+    height: 135px;
+}
+
+#A1 {
+    margin: 70px;
+}
+
+#A2 {
+    margin: 70px;
+}
+
+footer{
+    color: white;
+    background-color: rgb(166,166,166);
+    margin-top: 50px;
+    height: 150px;
+}
+
+navbar{
+    margin-top: -50px;
+}
+
