@@ -54,13 +54,16 @@ public class H10_3 extends Applet{
             maand = Integer.parseInt( s);
             if ( ( maand == 7 ) ){
                 tekst =  "juli heeft 31 dagen";
-            }            s = tekstvak.getText();
-            maand = Integer.parseInt( s);
+            }maand = Integer.parseInt( s);
             if ( ( maand == 8 ) ){
-                tekst =  "september heeft 30 dagen";
+                tekst =  "augstus heeft 31 dagen";
             }            s = tekstvak.getText();
             maand = Integer.parseInt( s);
             if ( ( maand == 9 ) ){
+                tekst =  "september heeft 30 dagen";
+            }            s = tekstvak.getText();
+            maand = Integer.parseInt( s);
+            if ( ( maand == 10 ) ){
                 tekst =  "oktober heeft 31 dagen";
             }            s = tekstvak.getText();
             maand = Integer.parseInt( s);
@@ -71,11 +74,6 @@ public class H10_3 extends Applet{
             if ( ( maand == 12 ) ){
                 tekst =  "december heeft 31 dagen";
             }            s = tekstvak.getText();
-            maand = Integer.parseInt( s);
-            if ( ( maand == 1 ) ){
-                tekst =  "januari heeft 31 dagen";
-            }
-
             repaint();
         }
     }
